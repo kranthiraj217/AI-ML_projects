@@ -1,0 +1,89 @@
+Topic: Unleashing the Power of PDFs: Turbocharging Search Engine Optimization with Intelligent Document Extraction
+Name: Kranthi Potthuri
+Mentor : Prof. Dr.Nitin Patil 
+Roll No: 21111038
+Course: Msc CS
+
+Problem Statement:
+The problem statement is to improve SEO for PDF documents stored on a website. The proposed technique entails creating models for extracting and pre-processing text from PDF files. The retrieved text will be used to train models to attain maximum accuracy. Finally, the trained models will be put into the search engine on the website.
+
+The following measures can be taken to improve search engine optimisation for PDF documents:
+
+Text Extraction from PDF Documents: Create models or use existing libraries to extract text from PDF documents. Several Python libraries, such as PyPDF2 and PDFMiner, can help with this task. Text, graphics, and metadata can be extracted from PDF files using these libraries.
+
+Text Classification: If the PDF documents contain a variety of themes or categories, developing a text classification model may be advantageous. This model may classify the extracted text into specific subjects, resulting in better tailored search results. This task can be accomplished using supervised machine learning techniques (e.g., Naive Bayes, Support Vector Machines) or deep learning models (e.g., recurrent neural networks, convolutional neural networks).
+
+Create a labelled dataset by manually categorising a subset of the PDF documents or, if available, by using already labelled data. The text classification model will be trained using this dataset. The model's accuracy can be increased further by iteratively improving the model based on feedback and evaluation.
+
+Continuous Improvement: Track the performance of PDF search engine optimisation and obtain user feedback. Evaluate and update the models on a regular basis to account for changes in content or user preferences. Over time, this iterative approach will assist enhance the accuracy and relevance of the search results.
+
+It should be noted that search engine optimisation is a complex topic, and the efficiency of the proposed solution will be determined by a variety of criteria such as the quality of the extracted text, the accuracy of the text categorization model, and the infrastructure of the search engine. Regular testing, assessment, and user feedback will be necessary for fine-tuning and optimising the system.
+
+Abstract:
+The project's goal is to improve search engine optimisation (SEO) for PDF documents posted on a website. The approach entails creating models for extracting and pre-processing text from PDF files. The retrieved text will then be utilised to train models with high accuracy. These trained models will be integrated into the website's search engine to give more relevant and targeted search results.
+
+To do this, the project begins by utilising appropriate PDF extraction technologies to obtain text from the documents. To increase the quality of the retrieved text, it is cleaned and normalised. To improve search relevancy, a text categorization model is created that categorises the extracted text into certain subjects or themes.
+
+A labelled dataset is prepared manually or from previously labelled data to train the text classification model. Iterative upgrades based on user feedback and evaluations emphasise continuous progress. The incorporation of the trained model into the search engine ensures that the classification of PDF documents is taken into account when generating search results, resulting in more accurate and personalised search experiences for users.
+
+Requirements and Specifications:
+
+Hardware Requirements:
+Processing power: The hardware should be powerful enough to handle the computational demands of PDF extraction, text pre-processing, and training machine learning models.
+Adequate storage capacity: PDF documents can take up a lot of storage space, so make sure you have adequate space to keep the extracted text, pre-processed data, and any intermediate or final models.
+
+Library Requirements:
+
+Select a good library or tool for extracting text from PDF documents. PyPDF2, PDFMiner, and Camelot are a few examples.
+Text Pre-processing: Use libraries to do operations such as cleaning, normalisation, stop word removal, and stemming on text. NLTK (Natural Language Toolkit), SpaCy, and Gensim are examples of commonly used libraries.
+Text Classification: Depending on the approach chosen, machine learning or deep learning framework libraries will be required. For creating and training text categorization models, prominent frameworks include Scikit-learn, TensorFlow, and PyTorch.
+
+Specifications:
+
+Programming Language:
+Python, which provides a large selection of libraries and tools for PDF extraction, text pre-processing, and machine learning, can be used to implement the project.
+Compatibility: Ensure that the libraries and tools you choose are compatible with the programming language and version you've chosen.
+Documentation and Community Assistance: Check to see if the libraries and tools have extensive documentation and active community support. This will aid in troubleshooting and, if necessary, counselling.
+Performance Considerations: Depending on the size and complexity of the website and the volume of PDF documents, consider optimization techniques such as parallel processing, efficient data structures, or cloud-based solutions to improve performance.
+
+Future Enhancements:
+Implement a language detection technique to determine the language of the PDF document. There are libraries available that can help detect the language of a given text, such as langid.py or NLTK. This enables the model to handle PDF documents in several languages.
+
+Text Extraction for Regional Languages: Investigate and implement libraries or tools built specifically for extracting text from PDF documents in regional languages. Because regional languages frequently have distinct text encoding or font styles, utilising language-specific libraries or tools can increase text extraction accuracy. Look for regional language libraries or tools with adequate documentation and community support.
+
+Training Data in Regional Languages: To train the text extraction model, collect or construct a labelled dataset of PDF documents in regional languages. To ensure the model's efficacy across multiple regional languages, the training data should cover a wide range of document kinds, themes, and writing styles.
+
+Consider designing language-specific models or modules to manage the complexities and intricacies of each regional language. It may be necessary to train separate models for each language, or to develop language-specific rules and patterns for text extraction and pre-processing.
+
+Collaborative Language Communities: Collaborate with language communities and specialists in regional languages to gain feedback, enhance the text extraction model's accuracy, and add support for new languages. Collaborative efforts can help to improve the model's performance and ensure its applicability for different regional languages.
+
+Evaluation and Testing: Evaluate the model's performance on PDF documents in various regional languages on a regular basis. Incorporate user feedback and undertake rigorous testing to discover and address any regional language limits or issues. To strengthen the model's capabilities, continuous improvement and incremental adjustments will be required.
+
+It's important to note that the availability of language-specific resources, such as labeled training data, libraries, and tools, may vary for different regional languages. Extending the model to support regional languages may require additional research and customization based on the specific languages involved.
+
+Bibliography:
+
+Manning, C.D., Raghavan, P., & Schütze, H. (2008). Introduction to Information Retrieval. Cambridge University Press.
+
+Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media.
+
+Zhang, Y., & Wu, Z. (2018). A survey on deep learning for named entity recognition. Neurocomputing, 300, 70-80.
+
+Sebastiani, F. (2002). Machine learning in automated text categorization. ACM Computing Surveys (CSUR), 34(1), 1-47.
+
+Géron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. O'Reilly Media.
+
+Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12(Oct), 2825-2830.
+
+Abadi, M., et al. (2016). TensorFlow: A System for Large-Scale Machine Learning. In Proceedings of the 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI), 265-283.
+
+PyTorch. Retrieved from: https://pytorch.org/
+
+NLTK Documentation. Retrieved from: https://www.nltk.org/
+
+SpaCy Documentation. Retrieved from: https://spacy.io/
+
+
+
+
+
